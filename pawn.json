@@ -1,0 +1,12 @@
+{
+	"user": "NikitaFoxze",
+	"repo": "flip-dialog",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dev_dependencies": [
+		"katursis/Pawn.CMD"
+	]
+}
