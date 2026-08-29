@@ -28,7 +28,7 @@ new nicknames[][MAX_PLAYER_NAME + 1] =
 CMD:fdtest1(playerid)
 {
 	for (new i; i < sizeof(nicknames); i++) {
-		DialogPagin_AddLine(playerid, 0xFF6347FF, // 0x00000000 - убирает нумерацию
+		DialogPagin_AddLine(playerid, 0xFF6347FF, // 0x00000000 - removes numbering
 			"{FFFFFF}Nickname - %s",
 			nicknames[i]);
 	}
