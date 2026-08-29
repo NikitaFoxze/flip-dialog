@@ -2,6 +2,8 @@
 
 :u6e80: [English](/README.md) | [Russian](/README.ru.md)
 
+:eyes: [Pawn-Wiki](https://pawn.wiki/index.php?/topic/63084-flip-dialog/#entry313669) | [open.mp](https://forum.open.mp/showthread.php?tid=6244)
+
 # flip-dialog
 A pagination system for dialogs in `SA-MP` & `open.mp` written in `Pawn`. It splits large amounts of text into dialog pages using different pagination modes.
 
