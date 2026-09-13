@@ -1298,7 +1298,7 @@ static stock _FDialog_strcpy(result[], const source[], const size = sizeof(resul
 
 static stock _FDialog_IntToHex(result[], color, const size = sizeof(result))
 {
-	format(result, size, "{%02x%02x%02x}", color & 0xFF, (color >> 16) & 0xFF, (color >> 8) & 0xFF);
+	format(result, size, "{%06x}", (color >> 8) & 0xFFFFFF);
 }
 
 // taken from YSI
