@@ -976,8 +976,8 @@ static stock _FDialog_ProcessText(playerid)
 		strcat(gDialogBuffer[playerid], gTablistBuffer[playerid]);
 	}
 
-	if (gPaginData[playerid][e_fpTotalLines] <= 0
-	&& gPaginData[playerid][e_fpTotalStaticLines] <= 0) {
+	if (!gPaginData[playerid][e_fpIsInitLines]
+	&& !gPaginData[playerid][e_fpIsInitStaticLines]) {
 	#if defined MDIALOG_ZLANG_MODE
 		static
 			string_empty[FDIALOG_MAX_FORMAT_STRING + 1];
